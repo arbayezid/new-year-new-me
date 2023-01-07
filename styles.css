@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Header Styles */
+
+.header-section{   
+    background-image: url(images/banner/banner2.png);
+    background-size: 1600px 800px;
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-title{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    text-align: right;
+    padding-top: 200px;
+    margin-left: 800px;
+    width: 520px;
+    margin-bottom: 24px;
+}
+.header-description{
+    width: 480px;
+    text-align: right;
+    line-height: 26px;
+    margin-left: 840px;
+    margin-bottom: 30px;
+}
+.header-button{
+    font-size: 20px;
+    color: white;
+    padding: 20px 26px;
+    background-color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 1160px;
+}
+main{
+    width: 1150px;
+    margin: 130px auto;
+}
+/* Previous Failure Styles */
+.failure-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 120px;
+
+}
+.failure-title{
+    font-size: 40px;
+    font-weight:900;
+    line-height: 40px;
+    color: #070707;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.failure-description{
+    color: #444343;
+    width: 410px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.failure-list{
+    list-style: none;
+    line-height: 40px;
+}
+
+/* My Plan Styles */
+.plans-heading{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plans-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.plans-container .title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.plans-container .sub-title{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+
