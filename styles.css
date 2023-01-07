@@ -7,9 +7,9 @@
 
 .header-section{   
     background-image: url(images/banner/banner2.png);
-    background-size: 1600px 800px;
     height: 800px;
-    width: 100%;
+    width: 1600px;
+    margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -121,3 +121,69 @@ main{
     margin-left: 64px;
     margin-top: 25px;
 }
+/* Contact Styles */
+.contact-container{
+    display: flex;
+    width: 1400px;
+    height: 270px;
+    margin: 0 auto;
+    background-color: #151414;
+    background-position: center;  
+    padding: 130px 130px;
+    justify-content: space-around;
+}
+.contact-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #f8f8f8;
+    margin-bottom: 16px;
+}
+.contact-description{
+    color: #ffffff;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.contact-email{
+    color: white;
+    margin-bottom: 16px;
+}
+.contact-phone{
+    color: white;
+    margin-bottom: 42px;
+}
+.twitter-icon{
+    margin-left: 10px;
+}
+.youtube-icon{
+    margin-left: 10px;
+}
+
+.subscribe-title{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 30px;
+}
+.input-text{
+    height: 25px;
+    width: 320px;
+    background-color: #151414;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    padding: 22px;
+    color: white;
+    margin-bottom: 16px;
+}
+::placeholder{
+    color: white;
+    font-size: 18px;
+}
+.subscribe-button{
+    padding: 20px 36px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    background-color: white;
+    border-radius: 10px;
+}
+
