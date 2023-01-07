@@ -19,7 +19,7 @@
     line-height: 76px;
     text-align: right;
     padding-top: 200px;
-    margin-left: 800px;
+    margin-left: 700px;
     width: 520px;
     margin-bottom: 24px;
 }
@@ -27,7 +27,7 @@
     width: 480px;
     text-align: right;
     line-height: 26px;
-    margin-left: 840px;
+    margin-left: 740px;
     margin-bottom: 30px;
 }
 .header-button{
@@ -37,7 +37,7 @@
     background-color: #F15B22;
     border: 0;
     border-radius: 5px;
-    margin-left: 1160px;
+    margin-left: 1060px;
 }
 main{
     width: 1150px;
@@ -129,7 +129,7 @@ main{
     margin: 0 auto;
     background-color: #151414;
     background-position: center;  
-    padding: 130px 130px;
+    padding: 130px 30px;
     justify-content: space-around;
 }
 .contact-title{
